@@ -1,0 +1,54 @@
+# Logs  
+logs  
+*.log  
+npm-debug.log*  
+yarn-debug.log*  
+yarn-error.log*  
+pnpm-debug.log*  
+lerna-debug.log*  
+
+# Dependencies & build output  
+node_modules  
+dist  
+dist-ssr  
+*.local  
+
+# Editor directories and files  
+.vscode/*  
+!.vscode/extensions.json  
+.idea  
+.DS_Store  # Removed duplicate  
+*.suo  
+*.ntvs*  
+*.njsproj  
+*.sln  
+*.sw?  
+.env  
+
+# TypeScript build cache  
+*.tsbuildinfo  
+
+# Babel cache  
+.babel-cache/  
+
+# Package manager caches  
+.npm  
+.pnpm-store  
+.yarn/cache  
+
+# OS-specific files  
+.AppleDouble  
+._*  
+Thumbs.db  
+Desktop.ini  
+
+# Docker build cache  
+.docker  
+docker-compose.override.yml  
+
+# Jest, Cypress, and other test-related files  
+coverage  
+cypress/videos  
+cypress/screenshots  
+*.test.js  
+*.spec.js  
